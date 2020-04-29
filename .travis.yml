@@ -21,7 +21,7 @@ install:
 before_script:
   # Use actual Ansible Galaxy role name for the project directory.
   - cd ../
-  - mv ansible-role-$ROLE_NAME aphexlog.$ROLE_NAME
+  - mv ansible-role_$ROLE_NAME aphexlog.$ROLE_NAME
   - cd aphexlog.$ROLE_NAME
 
 script:
